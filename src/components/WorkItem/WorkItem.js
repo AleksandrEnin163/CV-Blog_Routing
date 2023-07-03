@@ -7,7 +7,7 @@ function WorkItem({ id, title, tags, main_img, year, text, tags_amount }) {
     <div className={s.work_item}>
         <img src={main_img} alt={title}></img>
         <div className={s.work_item_info}>
-            <Link to={`*/works/${id}`} style={{ textDecoration: 'none' }}>
+            <Link to={`#/works/${id}`} style={{ textDecoration: 'none' }}>
               <h3>{title}</h3>
             </Link>
             <div>

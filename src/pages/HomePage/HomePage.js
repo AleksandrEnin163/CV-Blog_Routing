@@ -25,7 +25,7 @@ function HomePage() {
         <div className={s.recent_posts_container}>
           <div className={s.recent_posts_view_all}>
             <p>Recent posts</p>
-            <a href='*/blog'>View all</a>
+            <a href='#/blog'>View all</a>
           </div>
           <div className={s.recent_posts_items_container}>
             {blog_data.slice(0, 2).map(elem => <BlogItem key={elem.id} style_type='home' {...elem} />)}
@@ -33,7 +33,7 @@ function HomePage() {
         </div>
       </div>
       <div className={s.featured_works_container}>
-        <a href='*/works'>Featured works</a>
+        <a href='#/works'>Featured works</a>
         {work_data.slice(0,3).map(elem => <WorkItem key={elem.id} {...elem} />)}
       </div>
     </>
