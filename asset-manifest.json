@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CV-Blog_Routing/static/css/main.47aaa1cf.css",
+    "main.js": "/CV-Blog_Routing/static/js/main.82843bdb.js",
+    "static/media/john_photo.png": "/CV-Blog_Routing/static/media/john_photo.1ad9a57ea79d28c242ab.png",
+    "index.html": "/CV-Blog_Routing/index.html",
+    "main.47aaa1cf.css.map": "/CV-Blog_Routing/static/css/main.47aaa1cf.css.map",
+    "main.82843bdb.js.map": "/CV-Blog_Routing/static/js/main.82843bdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47aaa1cf.css",
+    "static/js/main.82843bdb.js"
+  ]
+}
