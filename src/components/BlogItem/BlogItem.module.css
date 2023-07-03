@@ -1,0 +1,87 @@
+.blog_item_home{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 418px;
+    height: 295px;
+}
+
+.blog_item_home h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 23px;
+    color: #21243D
+}
+
+.blog_item_home span{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #21243D;
+}
+
+.blog_item_home span:nth-child(1){
+    padding: 0 23px;
+    margin-right: 26px;
+    border: 1px solid transparent;
+    border-right-color: #21243D;
+}
+
+.blog_item_home p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    padding-left: 23px;
+    max-width: 368px;
+}
+
+.blog_item_blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 681px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 30px;
+}
+
+.blog_item_blog h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D
+}
+
+.blog_item_blog span{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D
+}
+
+.blog_item_blog span:nth-child(1){
+    padding-right: 23px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    border-right-color: #21243D;
+}
+
+.blog_item_blog span:nth-child(2){
+    color: #8695A4;
+}
+
+.blog_item_blog p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D
+}

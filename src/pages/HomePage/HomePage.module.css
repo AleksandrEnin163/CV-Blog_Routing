@@ -1,0 +1,124 @@
+.hi_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0;
+}
+
+.hi_section_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 auto;
+    max-width: 890px;
+    padding: 0 15px;
+    width: 100%
+}
+
+.hi_section_info{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hi_h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243D;
+}
+
+.hi_h1_span{
+    display: block;
+}
+
+.hi_info_p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hi_button{
+    width: 208px;
+    height: 47px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF6464;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.recent_posts{
+    padding-top: 20px;
+    background-color: #EDF7FA;
+}
+
+.recent_posts_container{
+    max-width: 890px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent_posts_view_all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent_posts_view_all p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D
+}
+
+.recent_posts_view_all a{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00A8CC
+}
+
+.recent_posts_items_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.featured_works_container{
+    max-width: 890px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 30px auto 70px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured_works_container a{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
